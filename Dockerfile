@@ -18,4 +18,4 @@ RUN set -x \
 
 VOLUME /src/
 WORKDIR /src/
-ENV PATH=/opt/ses/bin:${PATH}
+ENV PATH=${PATH}:/opt/ses/bin
